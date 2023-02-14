@@ -1,0 +1,13 @@
+{
+	"extends": "@motion-canvas/2d/tsconfig.project.json",
+	"compilerOptions": {
+		"baseUrl": "src",
+		"experimentalDecorators": true,
+		"paths": {
+			"scenes/*": ["./src/scenes/*"],
+			"assets/*": ["./src/assets/*"],
+			"src/*": ["./src/*"]
+		}
+	},
+	"include": ["src"]
+}
